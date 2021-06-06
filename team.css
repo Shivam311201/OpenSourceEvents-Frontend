@@ -63,7 +63,11 @@ header.major {
 .row {
   width: 100%;
 }
-
+.quotes{
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
 .row:after {
   content: "";
   display: block;
@@ -149,8 +153,6 @@ header.major {
 }
 .nav-link {
   color: #ffd633 !important;
-}
-.navbar-nav li a:hover {
 }
 .navbar-nav li.active a {
   color: #fff !important;

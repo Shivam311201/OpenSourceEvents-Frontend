@@ -251,6 +251,8 @@ color: black;
   font-size: 20px;
   margin:7% 5% 5% 5%;
   color: black;
+  padding-bottom: 10px;
+  margin-left: 30px;
 }
 
 .quotes div{
@@ -307,7 +309,16 @@ color: black;
     margin-top: -270px;
   }
 }
-
+.checking
+{
+  text-align: center;
+  padding-right: 250px;
+  padding-bottom: 50px;
+}
+.OpenSrc
+{
+  padding-bottom: 150px;
+}
 .image{
   width: 100%;
   height: 100%;
@@ -356,7 +367,6 @@ margin-left: -22px;
 .pa{
   letter-spacing: 2px;
   line-height: 18px;
-  margin-left: 10%;
   padding-left: 10%
   color black;
 }
@@ -724,4 +734,31 @@ p{
 
 .quote-notation {
   font-size: 1.3em;
+}
+@media (max-width:1138px)
+{
+  @media (min-width:992px)
+  {
+    .quotes{
+      margin-left: 130px;
+    }
+  }
+}
+@media (max-width:992px)
+{
+  @media (min-width:698px)
+  {
+    .quotes{
+      padding: 10px 0px;
+      margin-right: -100px;
+      margin-bottom: 30px;
+    }
+  }
+
+}
+@media (max-width:698px)
+{
+  .quotes{
+    margin-right: -100px;
+  }
 }

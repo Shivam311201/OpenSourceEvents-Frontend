@@ -137,9 +137,9 @@ body {
 	border: 1px solid var(--border);
 	z-index: 5;
 	border-radius: 18px;
-	-webkit-transition: 300ms linear;
-	-o-transition: 300ms linear;
-	transition: 300ms linear;
+	-webkit-transition: 3000ms linear;
+	-o-transition: 3000ms linear;
+	transition: 3000ms linear;
 	background-color: var(--box-clr);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
